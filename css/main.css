@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+    background: #fff;
+    height: 800px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.header-link{
+   width: 62;
+   height: 19;
+   top: 43px;
+   left: 498px;
+   opacity: 0.6;
+   color:  rgba(21, 12, 1, 1) ;
+}
+.header-link:hover{
+    color: rgba(220, 120, 11, 1);
+    opacity: 1;
+}
+.header-link-name{
+    padding: 10px 30px;
+    color: #fff;
+    background:rgba(220, 120, 11, 1);
+    border-radius: 7px;
+    margin-bottom: 40px;
+    border:2px solid rgba(220, 120, 11, 1);
+} 
+.header-link-name2{
+    padding: 10px 30px;
+    color:rgba(220, 120, 11, 1);
+    background:rgb(255, 255, 254);
+    border-radius: 7px;
+    margin-bottom: 40px;
+    border:2px solid rgba(220, 120, 11, 1);
+    opacity: 10;
+}
+.hero-title{
+    width: 555;
+height: 161;
+top: 236px;
+left: 150px;
+font-family:"Philosopher";
+font-weight: 700;
+font-size: 48.83px;
+line-height: 58px;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+.hero-box{
+    width: 620px;
+}
+.hero-text{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    margin-bottom: 40px;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text-name{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    max-width: 540px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+.hero-img{
+    width: 400px;
+    height: 450px;
+}
+.social-container{
+    text-align: center;
+    margin-top: 200px;
+}
+.social-title{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 20%;
+text-align: center;
+text-transform: uppercase;
+color: rgba(220, 120, 11, 1);
+width: 99;
+height: 19;
+top: 815px;
+left: 670px;
+opacity: 0.7;
+}
+.social-text{
+    text-align: center;
+    width: 352;
+height: 35;
+top: 841px;
+left: 544px;
+font-family: Philosopher;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+}
+.social-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.social-title-name{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
